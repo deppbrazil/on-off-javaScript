@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>On-Off with javaScript</title>
-</head>
+	<head>
+		<title>On-Off with javaScript</title>
+	</head>
 
 
 <!-- js -->
-<script type="text/javascript">
-	function online() {
-		document.getElementById("img-on").style.display="block";
-		document.getElementById("img-off").style.display="none";
-		console.log();
-	}
+	<script type="text/javascript">
+			function online() {
+				document.getElementById("img-on").style.display="block";
+				document.getElementById("img-off").style.display="none";
+				console.log();
+			}
 
-	function offline() {
-		document.getElementById("img-on").style.display="none";
-		document.getElementById("img-off").style.display="block";
-		console.log();
-	}
-</script>
-
+			function offline() {
+				document.getElementById("img-on").style.display="none";
+				document.getElementById("img-off").style.display="block";
+				console.log();
+			}
+	</script>
 <!-- js -->
 
 
 <!-- css -->
-<style type="text/css">
+	<style type="text/css">
 	
 	body {
 		margin: 0;
@@ -36,6 +35,7 @@
 		overflow-y: auto;
 	}
 
+
 	p {
 		text-decoration: none;
 		color: #ffffff;
@@ -43,6 +43,7 @@
 		font-size: 2.4vw;
 		line-height: 1.8vh;
 	}
+
 
 	.div-bt {
 		width: 100%;
@@ -68,8 +69,6 @@
 	    -webkit-box-align: center;
 	    -moz-box-align: center;
 		box-align: center;
-
-		
 	}
 
 	
@@ -85,7 +84,7 @@
 		padding: 10px;	
 		border-radius: 4px;
 		color: #00FF7F;
-}
+	}
 
 	
 	.bt-off {
@@ -100,9 +99,9 @@
 		padding: 10px;
 		border-radius: 4px;
 		color: #00FF7F;
+	}
 
-}
-
+	
 	.div-cont {
 		width: 100%;
 		height: 100%;
@@ -116,8 +115,6 @@
 		position: relative;
 		margin: auto;
 		display: none;
-
-
 	}
 
 
@@ -126,7 +123,6 @@
 		position: relative;
 		margin: auto;
 		display: block;
-
 	}
 
 
@@ -147,29 +143,24 @@
 		text-align: center;
 		font-size: 2.4vw;
 		line-height: 1.8vh;
-
 	}
-
 </style>
 <!-- css -->
 
 
-
-<!-- media querie -->
-
-
-
+<!-- html -->
 <body>
-<p>On-Off with javaScript</p>
-<div class="div-bt">
-	<button class="bt-on" onclick="online()"> on </button>
-	<button class="bt-off" onclick="offline()"> off </button>
-</div>
+	<p>On-Off with javaScript</p>
+	<div class="div-bt">
+		<button class="bt-on" onclick="online()"> on </button>
+		<button class="bt-off" onclick="offline()"> off </button>
+	</div>
 
-<div class="div-cont">
-	<img class="img1" id="img-on" src="assets/on.png"/>
-	<img class="img2" id="img-off" src="assets/off.png"/>
-</div>
+	<div class="div-cont">
+		<img class="img1" id="img-on" src="assets/on.png"/>
+		<img class="img2" id="img-off" src="assets/off.png"/>
+	</div>
+<!-- html -->
 
 
 <footer>

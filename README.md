@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank">
-    <img alt="html5 e CSS3" src="http://www.achacurso.com.br/wp-content/uploads/2015/11/html5pluscss3-2.png" width="auto" height="150px"/>
+  <a href="https://www.w3schools.com/js/default.asp" target="_blank">
+    <img alt="https://www.planet-source-code.com/vb/2010Redesign/images/LangugeHomePages/HTML5_CSS_JavaScript.png" width="auto" height="150px"/>
   </a>
 </p>
 
@@ -9,6 +9,6 @@
 Criando e manipulando uma função com javaScript
 
 ``` bash
-tml5 css3 e javaScript nativo no mesmo arquivo index.html
+html5 css3 e javaScript nativo no mesmo arquivo index.html
 ```
 
