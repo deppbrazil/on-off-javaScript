@@ -1,171 +1,37 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>On-Off with javaScript</title>
+		<meta charset="utf-8" lang="pt-br">
+		<title>On-Off com javaScript</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/action.js"></script>
 	</head>
 
-
-<!-- js -->
-	<script type="text/javascript">
-			function online() {
-				document.getElementById("img-on").style.display="block";
-				document.getElementById("img-off").style.display="none";
-				console.log();
-			}
-
-			function offline() {
-				document.getElementById("img-on").style.display="none";
-				document.getElementById("img-off").style.display="block";
-				console.log();
-			}
-	</script>
-<!-- js -->
-
-
-<!-- css -->
-	<style type="text/css">
-	
-	body {
-		margin: 0;
-		font-size: 10px;
-		line-height: 10px;
-		font-family: verdana;
-		background-color: #bbbbbb;
-		overflow-x: hidden;
-		overflow-y: auto;
-	}
-
-
-	p {
-		text-decoration: none;
-		color: #ffffff;
-		text-align: center;
-		font-size: 2.4vw;
-		line-height: 1.8vh;
-	}
-
-
-	.div-bt {
-		width: 100%;
-		height: auto;
-		margin: 0;
-		align-items: center;
-		display: -webkit-box;
-		display: -moz-box;
-		display: box;
-
-	    -webkit-box-orient: horizontal;
-	    -moz-box-orient: horizontal;
-		box-orient: horizontal;
-
-	    -webkit-box-pack: center;
-	    -moz-box-pack: center;
-		box-pack: center;
-
-	    -webkit-box-direction: normal;
-	    -moz-box-direction: normal;
-	    box-direction: normal;
-
-	    -webkit-box-align: center;
-	    -moz-box-align: center;
-		box-align: center;
-	}
-
-	
-	.bt-on {
-		-webkit-box-ordinal-group: 1;
-	    -moz-box-ordinal-group: 1;
-	    box-ordinal-group: 1;
-	    
-	    -webkit-box-flex: 0;
-	    -moz-box-flex: 0;
-		box-flex: 0;
-		font-size: 2em;	
-		padding: 10px;	
-		border-radius: 4px;
-		color: #00FF7F;
-	}
-
-	
-	.bt-off {
-		-webkit-box-ordinal-group: 2;
-	    -moz-box-ordinal-group: 2;
-		box-ordinal-group: 2;
-	    
-	    -webkit-box-flex: 0;
-	    -moz-box-flex: 0;
-		box-flex: 0;
-		font-size: 2em;	
-		padding: 10px;
-		border-radius: 4px;
-		color: #00FF7F;
-	}
-
-	
-	.div-cont {
-		width: 100%;
-		height: 100%;
-		margin: auto;
-		position: absolute;
-	}
-
-
-	.img1 {
-		width: 250px;
-		position: relative;
-		margin: auto;
-		display: none;
-	}
-
-
-	.img2 {
-		width: 250px;
-		position: relative;
-		margin: auto;
-		display: block;
-	}
-
-
-	footer {
-		width: 100%;
-		height: auto;
-		background-color: #eeeeee;
-		position: fixed;
-		margin: auto;
-		bottom: 0;
-		padding: 20px;
-		
-	}
-
-	footer a {
-		text-decoration: none;
-		color: #aaaaaa;
-		text-align: center;
-		font-size: 2.4vw;
-		line-height: 1.8vh;
-	}
-</style>
-<!-- css -->
-
-
-<!-- html -->
 <body>
-	<p>On-Off with javaScript</p>
+
+	<p>On-Off com javaScript</p>
+
 	<div class="div-bt">
 		<button class="bt-on" onclick="online()"> on </button>
 		<button class="bt-off" onclick="offline()"> off </button>
 	</div>
+	
 
 	<div class="div-cont">
 		<img class="img1" id="img-on" src="assets/on.png"/>
 		<img class="img2" id="img-off" src="assets/off.png"/>
 	</div>
-<!-- html -->
 
 
 <footer>
-	<p><a href="http://br.freepik.com/fotos-vetores-gratis/poster" target="_blak">©Poster vetore desenhado por Freepik</a></p>
-	<p><a href="https://www.facebook.com/deppbrazil.deppbrazil" target="_blak">Project ©deppbrazil</a></p>
+	<p>
+		<a href="http://br.freepik.com/fotos-vetores-gratis/poster" target="_blak">©Poster vetore desenhado por Freepik</a>
+	</p>
+
+	<p>
+		<a href="https://www.facebook.com/deppbrazil.deppbrazil" target="_blak">Projeto ©deppbrazil</a>
+	</p>
+
 </footer>
 
 </body>

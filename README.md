@@ -4,11 +4,11 @@
   </a>
 </p>
 
-## on-off With javaScript
+## Funcão on-off com javaScript
 
 Criando e manipulando uma função com javaScript
 
 ``` bash
-html5 css3 e javaScript nativo no mesmo arquivo index.html
+html5 css3 e JavaScript puro
 ```
 
