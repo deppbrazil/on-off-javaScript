@@ -1,10 +1,3 @@
-# Função com JavaScript
-
-## Criando interação com js nativo
-
-* HTML5
-* CSS3
-* JavaScript
-
-
-
+# JavaScript # 
+## Function on and off with JavaScript ##
+* Project information: `package.json`

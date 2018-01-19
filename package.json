@@ -1,0 +1,24 @@
+{
+  "name": "on-off-javascript",
+  "version": "1.0.0",
+  "description": "controlling media with javascript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deppbrazil/on-off-javaScript.git"
+  },
+  "keywords": [
+    "javascript",
+    "media",
+    "video"
+  ],
+  "author": "Mir Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deppbrazil/on-off-javaScript/issues"
+  },
+  "homepage": "https://github.com/deppbrazil/on-off-javaScript#readme"
+}
