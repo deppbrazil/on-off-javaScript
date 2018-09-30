@@ -4,4 +4,4 @@
 
 ## Using ## 
 
-<img width="250" alt="screen shot" src="https://github.com/deppbrazil/on-off-javaScript/blob/master/assets/html-css-js.png">
+<img width="350" alt="screen shot" src="https://github.com/deppbrazil/on-off-javaScript/blob/master/assets/html-css-js.png">
