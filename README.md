@@ -1,7 +1,12 @@
-# Light with JavaScript # 
+# Function 'on' and 'off' with Javascript # 
 
-<img width="250" alt="screen shot" src="https://github.com/deppbrazil/on-off-javaScript/blob/master/assets/on.png">
+[![Banner](assets/banner.jpg)](https://github.com/deppbrazil/on-off-javascript)
 
-## Using ## 
+## [Demo](https://deppbrazil.github.io/on-off-javascript) ##
 
-<img width="350" alt="screen shot" src="https://github.com/deppbrazil/on-off-javaScript/blob/master/assets/html-css-js.png">
+> on light, off light, on light, off light... 🥋
+
+## Stacks: ##
+* HTML5
+* CSS3
+* Javascript
